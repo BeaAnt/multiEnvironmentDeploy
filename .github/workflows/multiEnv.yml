@@ -30,4 +30,4 @@ jobs:
       HOST_USER: ${{secrets.USERNAME}}
       TARGET: ${{secrets.TARGET_PATH}}
       
-      CI: false
+      CI: false 
