@@ -28,6 +28,6 @@ jobs:
       SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY_DEV}}
       SERVER_IP: ${{secrets.HOST_DNS_DEV}}
       HOST_USER: ${{secrets.USERNAME}}
-      TARGET: ${{secrets.TARGET_PATH}}
+      TARGET: ${{secrets.TARGET_PATH_DEV}}
       
       CI: false 
