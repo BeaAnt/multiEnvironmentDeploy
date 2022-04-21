@@ -6,11 +6,11 @@ create 2 deployment environments so that you can push in both development and pr
 
 **development environment:**    
 1.Create a AWS EC2 instance with an Ubuntu machine image and download the ssh keys    
-2.Install and configure the nginx web server    
+2.Install and configure Nginx web server    
 
 **production environment:**           
 1.Create a AWS EC2 instance with an Ubuntu machine image and download the ssh keys    
-2.Install and configure nginx web server    
+2.Install and configure Nginx web server    
 
 ## Deploy Website to Multiple Environments with GitHub Actions    
 
