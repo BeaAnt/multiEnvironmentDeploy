@@ -4,11 +4,11 @@ This repo uses a Github Actions to deploy a static website to multiple environme
 ## Prerequisites    
 create 2 deployment environments so that you can push in both development and production environments   
 
-**development environment:**
+**development environment:**    
 1.Create a AWS EC2 instance with an Ubuntu machine image and download the ssh keys    
 2.Install and configure the nginx web server    
 
-**production environment**    
+**production environment**        
 1.Create a AWS EC2 instance with an Ubuntu machine image and download the ssh keys    
 2.Install and configure nginx web server    
 
@@ -30,7 +30,7 @@ USERNAME  -> the username of the EC2 instance
 
 **Create a Github Environments**    
 Click on tab *Settings* of the Github repo, go to *Environments* section. Click *New environment* to create 2 environment:    
-DEV -> to deploy the code in a development environment
+DEV -> to deploy the code in a development environment    
 PROD -> to deploy the code in a production environment. Configure a protection (approval) rule in the environment:The distribution process will be suspended until approval is granted before the PROD run    
 
 
