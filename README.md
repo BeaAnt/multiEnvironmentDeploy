@@ -15,7 +15,7 @@ create 2 deployment environments so that you can push in both development and pr
 ## Deploy Website to Multiple Environments with GitHub Actions    
 
 **Create a repo on Github**   
-1.Create the content/application files for the website
+1.Create the content/application files for the website    
 2.Create a workflow file: The action must be created inside a .github/workflow/ folder in a root directory for it to be accessible by Github    
 
 **Create a GitHub repository secrets**    
