@@ -8,6 +8,9 @@ create 2 deployment environments so that you can push in both development and pr
 1.Create a AWS EC2 instance with an Ubuntu machine image and download the ssh keys    
 2.Install and configure Nginx web server    
 
+![image](https://user-images.githubusercontent.com/57292753/166947965-16426361-c65f-4857-b56d-6a617405e9cd.png)
+
+
 **production environment:**           
 1.Create a AWS EC2 instance with an Ubuntu machine image and download the ssh keys    
 2.Install and configure Nginx web server    
