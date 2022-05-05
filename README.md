@@ -36,6 +36,9 @@ Click on tab *Settings* of the Github repo, go to *Environments* section. Click 
 DEV -> to deploy the code in a development environment    
 PROD -> to deploy the code in a production environment. Configure a protection (approval) rule in the environment:The distribution process will be suspended until approval is granted before the PROD run    
 
+![image](https://user-images.githubusercontent.com/57292753/166949009-069e12dd-530b-4302-b2f1-3a407d6e5ada.png)
+
+
 Commit to the dev branch and the GitHub Actions deployments will start automatically. You can view the distributions, including details about each run, on the Actions tab.
 
 
